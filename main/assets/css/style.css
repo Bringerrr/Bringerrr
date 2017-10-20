@@ -1,0 +1,974 @@
+/* сброс стилей браузера */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* конец кода сброса стилей браузера */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: no-repeat 50% 50%/ 100% 100% fixed url(../img/blue-cosmos.jpg);
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.clearboth {
+    clear: both;
+}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 83%;
+}
+
+
+
+/*--------------------------------header-------------------------------*/
+
+.header-1 {
+    background: no-repeat url(../img/space-1.jpg) 50% 50%/ auto 100%;
+    min-height: 100vh;
+}
+
+
+.header-2 {
+    background: no-repeat url(../img/intro-2.jpg) 50% 50%/ auto 100%;
+    min-height: 100vh;
+}
+
+.header-3 {
+    background: no-repeat url(../img/intro-3.jpg) 50% 50%/ auto 110%;
+    min-height: 100vh;
+}
+
+.header__dimka {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.header__dimka-body {
+    position: absolute;
+    width: 100%;
+    background: rgba(35, 0, 35, 0.3);
+}
+
+.header__logo {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.header__logo>img {
+    max-width: 100%;
+    z-index: 1;
+}
+
+
+
+
+/*---------------------header>navigation-------------------------*/
+
+.navigation {
+    position: relative;
+    width: 100%;
+}
+
+
+.navigation li:hover {
+    color: white;
+}
+
+.navigation li:after {
+    background: linear-gradient(to right, transparent, #ffffff 25%, #ffffff 50%, transparent);
+    content: "";
+    display: block;
+    height: 0.4vmin;
+    width: 100%;
+}
+
+.navigation ul,
+.navigation li {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+
+.navigation a:hover {
+    color: black;
+}
+
+.navigation_text-theme {
+    color: white;
+    text-align: center;
+}
+
+.navigation_border-style {
+    box-sizing: border-box;
+}
+
+
+.navigation__nav-elem {
+    display: block;
+    float: left;
+    width: 16.666%;
+    position: relative;
+    background: rgb(240, 183, 161);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e', GradientType=0);
+    /* IE6-9 */
+}
+
+.nav-elem_color-text-style {
+    font-size: 1rem;
+}
+
+
+
+
+/*-----------------------new------------------------------*/
+
+.nav-elem__border_theme {
+    box-sizing: border-box;
+}
+
+.nav-elem__border_theme:after {
+    background: #ffffff;
+    background: linear-gradient(to right, transparent, #ffffff 30%, #ffffff 45%, transparent);
+    content: "";
+    display: block;
+    height: 0.4vh;
+    width: 100%;
+}
+
+.nav-elem__border_theme:nth-child(2):hover:after,
+.nav-elem__border_theme:nth-child(3):hover:after,
+.nav-elem__border_theme:nth-child(4):hover:after {
+    opacity: 0;
+}
+
+
+.nav-elem__border_theme:nth-child(2):before,
+.nav-elem__border_theme:nth-child(3):before,
+.nav-elem__border_theme:nth-child(4):before {
+    content: "\232a";
+    position: absolute;
+    right: 0%;
+}
+
+.nav-elem__border_theme:nth-child(2):hover::before,
+.nav-elem__border_theme:nth-child(3):hover::before,
+.nav-elem__border_theme:nth-child(4):hover::before {
+    content: "\232a";
+    position: absolute;
+    right: 0%;
+    color: #D2D4FF;
+}
+
+/*-----------------------new------------------------------*/
+
+.nav-elem__border_theme:hover {
+    padding-top: 1%;
+    border-radius: 0;
+    transition: padding 0.5s;
+}
+
+.sub-menu {
+    display: none;
+}
+
+
+.navigation__nav-elem:hover>ul {
+    display: block;
+}
+
+.sub-menu_elem:hover>ul {
+    display: block;
+}
+
+.scientists-renaissance_color-change:hover {
+    background: orange;
+}
+
+.modern-scientist_color-change:hover {
+    background: orange;
+}
+
+.planets_color-change:hover {
+    background: orange;
+}
+
+
+.sub-menu_color-of-background {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, transparent 0%, transparent 5%, orange 30%, orange 45%, transparent 95%, transparent 100%);
+}
+
+
+.sub-sub-menu_color-of-background {
+    background: orange;
+}
+
+
+
+/*---------------------header>navigation-------------------------*/
+
+.header__intro {
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+.header__intro-text {
+    display: block;
+    position: relative;
+}
+
+.header__intro-text_font-style {
+    font-size: 3.5rem;
+    color: white;
+    letter-spacing: 1.3rem;
+}
+
+.header__intro-text_text-align {
+    text-align: center;
+}
+
+.header__intro-text_condensed {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+.header__intro-top-space-between-blocks {
+    margin-top: 45vh;
+}
+
+
+
+/*--------------------------------header-------------------------------*/
+
+
+/*------------------------------history---------------------------------*/
+
+.history {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.history_align-center {
+    text-align: center;
+}
+
+.history_vertical-space-between {
+
+    padding-top: 4vh;
+    padding-bottom: 0;
+}
+
+
+.universe-birth {
+    position: relative;
+    width: 48%;
+    height: 60vh;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+
+.universe-birth_background-universe {
+    background: no-repeat url(../img/big-bang-1.jpg) 50% 50%/ auto 100%;
+}
+
+.universe-birth_shadow-border {
+    box-shadow: inset 0vmin 0vmin 20vmin 3vmin #103150;
+}
+
+.universe-birth:hover {
+    box-shadow: inset 0vmin 0vmin 33vmin 14vmin #103150;
+}
+
+
+.universe-birth_transition {
+    transition: all 1s;
+}
+
+.universe-birth_float-left {
+    float: left;
+}
+
+
+
+.universe-birth__text {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 86%;
+}
+
+.universe-birth__text_font-theme {
+    color: white;
+    font-size: 1rem;
+}
+
+.universe-birth__text_place {
+    top: 37vh;
+    left: 3vw;
+}
+
+.universe-birth__text_transition {
+    transition: all 1s;
+}
+
+.universe-birth__text_place-around-text {
+    padding: 20px;
+}
+
+.universe-birth__text:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 0%;
+    height: 15vh;
+    width: 15vh;
+    opacity: 0;
+    background: url(../img/rocket.png) 50% 50%/100% 100%;
+    transition: all 1s;
+}
+
+.universe-birth:hover>div:after {
+    left: 95%;
+    top: -0vh;
+    opacity: 1;
+}
+
+.universe-birth:hover>div {
+    transform: translateX(-3vw);
+}
+
+.universe-birth>div i {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.universe-birth:hover>div i {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    color: rgb(255, 255, 0);
+    opacity: 1
+}
+
+
+.science {
+    position: relative;
+    width: 50%;
+    min-height: 60vh;
+    border-radius: 30px;
+}
+
+.science_background-universe {
+    background: no-repeat url(../img/history.jpg) 50% 50%/ auto 110%;
+}
+
+.science_shadow-border {
+    box-shadow: inset 0vmin 0vmin 20vmin 4vmin #103150;
+}
+
+.science:hover {
+    box-shadow: inset 0vmin 0vmin 33vmin 14vmin #103150;
+    ;
+}
+
+.science_transition {
+    transition: all 1s;
+}
+
+.science_float-left {
+    float: left;
+}
+
+.science__text {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 86%;
+}
+
+.science__text_font-theme {
+    color: white;
+    font-size: 1rem;
+}
+
+.science__text_place {
+    top: 37vh;
+    left: 3vw;
+}
+
+.science__text_transition {
+    transition: all 1s;
+}
+
+.science__text_place-around-text {
+    padding: 3vmin;
+}
+
+
+.science:hover>div {
+    transform: translateX(-3vw);
+}
+
+.science>div i {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.science:hover>div i {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    color: rgb(255, 255, 0);
+    opacity: 1
+}
+
+.science>div:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 0%;
+    height: 15vh;
+    width: 15vh;
+    opacity: 0;
+    background: url(../img/delorian.png) 50% 50%/100% 100%;
+    transition: all 1s;
+}
+
+.science:hover>div:after {
+    left: 97%;
+    top: 2%;
+    opacity: 1;
+}
+
+/*----------------------------------history---------------------------------*/
+
+
+/*----------------------------------Scientists---------------------------------*/
+
+.scientists {
+    width: 100%;
+}
+
+
+.header_big-letters {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 2vh;
+    color: orange;
+}
+
+.scientists__renaissance {
+    width: 100%;
+}
+
+.scientists__renaissance_space-between-blocks {
+    margin-bottom: 7vh;
+    margin-top: 7vh;
+}
+
+.renaissance-scientist__header {
+    width: 100%;
+    background: url('../img/page_bg.jpg') top left;
+    margin-bottom: 8vh;
+    border-radius: 25px 25px 0 0;
+}
+
+.header__text_font-style {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+.header_border {
+    box-sizing: border-box;
+}
+
+.renaissance-scientist {
+    float: left;
+    width: 31.3%;
+    min-height: 34vh;
+    box-sizing: border-box;
+}
+
+.renaissance-scientist_font-theme {
+    text-align: justify;
+    font-size: 32px;
+}
+
+.renaissance-scientist_horizontal-space-between:not(:nth-child(4)) {
+    margin-right: 3%;
+}
+
+.renaissance-scientist__img {
+    max-width: 100%;
+}
+
+.renaissance-scientist_hover {
+    transition: all 0.5s;
+    box-shadow: 0 0 4vmin white;
+}
+
+
+.renaissance-scientist_hover:nth-child(2):hover {
+    transform: scale(1.1);
+    transform-origin: 0% 100%;
+    box-shadow: 0 0 5vmin black;
+}
+
+.renaissance-scientist_hover:nth-child(3):hover {
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+    box-shadow: 0 0 5vmin black;
+}
+
+.renaissance-scientist_hover:nth-child(4):hover {
+    transform: scale(1.1);
+    transform-origin: 100% 100%;
+    box-shadow: 0 0 5vmin black;
+}
+
+
+.scientist__header {
+    position: relative;
+    width: 100%;
+}
+
+.scientist__header_font-style {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    letter-spacing:0.2rem;
+    text-align: center;
+    padding: 2vh 0 2vh 0;
+}
+
+.scientist__header_bg-color {
+    background: rgb(240, 183, 161);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e', GradientType=0);
+    /* IE6-9 */
+}
+
+.scientist__header-border-style {
+    border-radius: 90px 0 0 0;
+}
+
+.scientist__text {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    background: rgba(33, 46, 79, 0.85);
+    border-radius: 0 0 25px 25px;
+}
+
+.modern-scientist {
+    width: 100%
+}
+
+.scientists__modern_elem {
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.modern-scientist_font-theme {
+    text-align: justify;
+    font-size: 32px;
+}
+
+.modern-scientist_hover {
+    transition: all 0.5s;
+    box-shadow: 0 0 4vmin white;
+}
+
+
+.modern-scientist_hover:nth-child(2):hover {
+    transform: scale(1.1);
+    transform-origin: 0% 100%;
+    box-shadow: 0 0 5vmin black;
+}
+
+.modern-scientist_hover:nth-child(3):hover {
+    transform: scale(1.1);
+    transform-origin: 100% 100%;
+    box-shadow: 0 0 5vmin black;
+}
+
+.modern-scientist_horizontal-space-between:not(:nth-child(3)) {
+    margin-right: 6%;
+}
+
+
+/*----------------------------------Scientists---------------------------------*/
+
+.pre-footer {
+    position: relative;
+    width: 100%;
+}
+
+/*----------------------------------Space-objects---------------------------------*/
+
+.space-objects {
+    position: relative;
+    float: left;
+    width: 63%;
+    box-sizing: border-box;
+    margin-right: 3%;
+}
+
+.space-objects__header {
+    width: 100%;
+    background: url('../img/page_bg.jpg') top left;
+    border-radius: 40px 40px 0 0;
+    margin-top: 7vh;
+}
+
+.space-objects__elem_verical-space-between:not(:first-child) {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.space-objects__elem {
+    width: 100%;
+    float: left;
+}
+
+.space-objects__img {
+    width: 100%;
+    height: 50vh;
+    transition: background-size 0.5s;
+}
+
+.space-objects__img_planets {
+    border: 1px solid black;
+    background: no-repeat url(../img/planets.jpg) 50% 50%/ auto 110%;
+}
+
+.space-objects__img_stars {
+    border: 1px solid black;
+    background: no-repeat url(../img/stars.jpg) 50% 50%/ auto 120%;
+}
+
+.objects__img {
+    width: 100%;
+    display: block;
+}
+
+.space-objects__text {
+    position: relative;
+    font-size: 4rem;
+    text-align: justify;
+    transition: all 2s;
+}
+
+.space-objects__text_position {
+    top: 40%;
+    left: 40%;
+}
+
+.space-objects__elem:nth-child(2):hover>div>div {
+    color: white;
+}
+
+.space-objects__elem:nth-child(3):hover>div>div {
+    color: white;
+}
+
+.space-objects__elem:nth-child(2):hover>div {
+    background-size: auto 150%;
+}
+
+.space-objects__elem:nth-child(3):hover>div {
+    background-size: auto 150%;
+}
+
+/*----------------------------------Space-objects---------------------------------*/
+
+
+/*----------------------------------Space-news---------------------------------*/
+
+.space-news {
+    width: 30%;
+    box-sizing: border-box;
+    background: grey;
+    height: 67vh;
+    float: right;
+    margin-top: 7vh;
+}
+
+.space-news__header {
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+.space-news__header_font-style {
+    text-align: center;
+}
+
+.space-news__header_vertical-space-between {
+    margin-bottom: 9vh;
+}
+
+.space-news__elem {
+    width: 100%;
+    height: 9vh;
+    background: purple;
+}
+
+.space-news__elem:nth-child(n):not(:nth-child(5)) {
+    margin-bottom: 4vh;
+    background: green;
+}
+
+.elem__artical-name {
+    width: 100%;
+    height: 65%;
+    background: blue
+}
+
+.elem__artical-name_font-style {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.elem__date {
+    font-style: italic;
+}
+
+/*----------------------------------Space-news end---------------------------------*/
+
+/*----------------------------------about-us start---------------------------------*/
+
+
+.about-us{
+width: 100%;
+height: 50vh;
+background: red;
+margin-top:10vh;}
+
+/*----------------------------------about-us end---------------------------------*/
+
+
+/*-------------------------------------mail-box-----------------------------------*/
+
+
+.form-header>{
+	border:3px solid pink;
+	width: 100%;
+	padding: 1rem;
+	background: rgba(255, 255, 255, .8);
+clear: both;}
+
+.form-header>p{
+	font-size:2rem;}
+
+.form__selector{
+	 width: 96%;
+	 height: 8vh;
+	 margin-bottom: 1.5rem;
+	 border: none;
+	 font-size: 1rem;
+	 padding: 1vh 0 1vh 0;
+	 text-align: center;}
+
+
+.feedback .input {
+    width: 75%;
+    height: 5vh;
+    border: none;
+    background-color: rgba(255, 255, 255, .8);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    padding: 0.2vmin 1vmin;
+}
+
+.feelback .input:focus {
+    box-shadow: 2px 1px 18px 11px rgba(190, 190, 190, 0.3);
+    outline: none;
+}
+
+.f-name{
+	width:65%;
+}
+
+.btn {
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 25%;
+    height: 10vh;
+    border: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 0.4vmin;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/*-------------------------------------mail-box end-----------------------------------*/
+
+#footer {
+    text-align: center;
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 15vh;
+    background: black;
+    color: white;
+}
+/*---------------Бордеры зеленый - хеддер, белые - элементы, крассный - враппер--------------------------------*/

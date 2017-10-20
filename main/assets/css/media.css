@@ -1,0 +1,98 @@
+@media screen and  (min-width:2000px){
+        html{font-size: 20px;}
+        .header-1{ min-height: 80vh;}
+         .header-2{ min-height: 80vh;}
+        .header-3{ min-height: 80vh;}
+        .header__dimka {min-height: 80vh;}
+        #wrapper{width: 72.5%}
+        .header__logo>img{transform: scale(1.5)}
+        .header__intro-top-space-between-blocks {margin-top: 25vh;}
+        .science:hover>div:after {left: 86%;}
+        .universe-birth:hover>div:after {left: 86%;}
+        .dot{top: 70vh;} /*----------slider-style.css*/
+}
+
+
+@media screen and (min-width:1440px) and (max-width:2000px){
+        html{font-size: 20px;}
+        .header-1{ min-height: 83vh;}
+         .header-2{ min-height: 83vh;}
+        .header-3{ min-height: 83vh;}
+        .header__dimka {min-height: 83vh;}
+        #wrapper{width: 75%}
+        .header__logo>img{transform: scale(0.9)}
+        .header__intro-top-space-between-blocks {margin-top: 30vh;}
+        .science:hover>div:after {left: 89%;}
+        .universe-birth:hover>div:after {left: 89%;}
+        .dot{top: 75vh;} /*----------slider-style.css*/
+
+}
+
+@media screen and (min-width:960px) and (max-width:1440px){
+        html{font-size: 16px;}
+        .header-1{min-height: 87vh;}
+         .header-2{ min-height: 87vh;}
+        .header-3{ min-height: 87vh;}
+        .header__dimka {min-height: 85vh;}
+        #wrapper{width: 79%}
+        .header__logo>img{transform: scale(0.8)}
+        .header__intro-text_font-style{letter-spacing: 0.5rem;}
+        .header__intro-top-space-between-blocks {margin-top: 32vh;}
+        .science:hover>div:after {left: 92%;}
+        .universe-birth:hover>div:after {left: 92%;}
+        .dot{top: 75vh;} /*----------slider-style.css*/
+    }
+
+@media screen and (min-width:768px) and (max-width:960px){
+        html{font-size: 16px;background: yellow}
+        .header-1{ min-height: 100vh;}
+         .header-2{ min-height: 100vh;}
+        .header-3{ min-height: 100vh;}
+        .header__dimka {min-height: 100vh;}
+        #wrapper{width: 89%}
+        .header__logo>img{transform: scale(0.7)}
+        .header__intro-text_font-style{letter-spacing: 0.3rem;}
+        .dot{top: 86vh;} /*----------slider-style.css*/
+    }
+
+@media screen and (min-width:650px) and (max-width:768px){
+        html{font-size: 16px;}
+        .header-1{ min-height: 140vh;}
+        .header-2{ min-height: 140vh;}
+        .header-3{ min-height: 140vh;}
+        .header__dimka {min-height: 140vh;}
+        #wrapper{width: 100%}
+        .header__logo>img{transform: scale(0.6)}
+        .header__intro-text_font-style{font-size: 3.5rem;letter-spacing: 0.1rem;padding: 6vh 4vw 0 4vw}
+        .header__intro-top-space-between-blocks {margin-top: 25vh;}
+        .header_big-letters{font-style:2rem;}
+        .dot{top: 3vh; left:96vh;}/*---------slider-style.css*/
+        .prev, .next{top: 68vh;}/*---------slider-style.css*/
+
+    }
+
+    @media screen and (max-width:649px){
+        html{font-size: 14px}
+        .header-1{ min-height: 145vh;}
+        .header-2{ min-height: 145vh;}
+        .header-2{ min-height: 145vh;}
+        .header__dimka {min-height: 145vh;}
+        #wrapper{width: 100%}
+        .header__logo{padding: 0}
+        .header__logo>img{transform: scale(0.3)}
+        .navigation{margin-top: -10vh}
+        .navigation__nav-elem{width:100%; clear:both;}
+        .sub-sub-menu{width:100%;}
+        .header__intro-text_font-style{font-size:2rem; letter-spacing: 0.1rem;padding: 0vh 4vw 0 4vw}
+        .header__intro-top-space-between-blocks {margin-top: 68vh;}
+        .universe-birth{width: 100%; margin-bottom: 20vh; min-height:80vh;}
+        .science{width:100%; min-height:90vh;}
+        .science_background-universe{background-size: auto 125%}
+        .science>div:after{height:30vh;width:30vh;}
+        .universe-birth__text:after{height:30vh;width:30vh;}
+        .universe-birth_background-universe{background-size: auto 140%}
+        .history_vertical-space-between {padding-top: 15vh; padding-bottom:15vh;}
+        .header_big-letters{font-style:2rem;}
+        .sub-menu_color-of-background {position: relative;}
+        .dot{top: 3vh; left:95vh;} /*----------slider-style.css*/
+        .prev, .next{opacity: 0}/*---------slider-style.css*/
