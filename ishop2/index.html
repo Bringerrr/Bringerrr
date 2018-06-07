@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8" />
+  <title>iShop</title>
+</head> 
+<body> 
+  <div id="container"></div> 
+      
+  <script src="https://unpkg.com/react@15/dist/react.js"></script> 
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> 
+      
+  <script src="StoreBlock.js"></script>
+  <link rel="stylesheet" type="text/css" href="StoreBlock.css" />
+
+  <script>
+
+    var itemText=toString("Список товаров");
+    var itemHeader = 
+      {text:'Товар', code:"header", url:"Ссылка",price:"Цена (б.р.)",count:"На складе"}
+    ;
+    var itemArr=[ 
+      {text:'Люстра',code:1,url:"#",price:900,count:22},
+      {text:'Мяч',code:2,url:"#",price:900,count:148},
+      {text:'Стул',code:3,url:"#",price:900,count:4},
+      {text:'Картина',code:4,url:"#",price:900,count:96},
+      {text:'Диван',code:5,url:"#",price:900,count:123}
+    ];
+
+    ReactDOM.render(
+      React.createElement(StoreBlock,{title:itemText,item:itemHeader,items:itemArr}), 
+      document.getElementById('container') 
+    );
+
+  </script>
+
+</body> 
+</html>

@@ -1,0 +1,56 @@
+﻿a{
+  text-decoration: none;
+  color: black  
+}
+
+.StoreBlock
+{
+  border: double gray 3px;
+  float: left;
+  padding: 15px 15px;
+  background-color: #F0F0F0;
+}
+
+.StoreBlock .Question
+{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 4px 0;
+}
+
+.StoreBlock .items
+{
+  padding-top: 5px;
+}
+
+.StoreBlock .items .item
+{
+  padding: 2px 0;
+}
+
+.StoreBlock .items .item span,
+.StoreBlock .Header .HeaderItems span{
+  display: inline-block;
+  width: 80px;
+}
+
+.StoreBlock .items .item span:not(:last-child),
+.StoreBlock .Header .HeaderItems span:not(:last-child){
+  margin-right: 20px
+}
+
+
+.StoreBlock .Header .HeaderItems span{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.StoreBlock .items .item span:not(:first-child),
+.StoreBlock .Header .HeaderItems span:not(:first-child){
+  text-align: center;
+}
+
+
